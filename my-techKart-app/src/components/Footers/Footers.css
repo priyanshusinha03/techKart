@@ -1,0 +1,11 @@
+.nav-footer {
+  color: white;
+  list-style-type: none;
+  font-weight: 500 !important;
+  font-size: 0.87rem;
+}
+
+.footer-Header {
+  font-weight: 600;
+  color: gray;
+}
