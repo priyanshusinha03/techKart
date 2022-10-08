@@ -102,15 +102,17 @@ const MainHeader = () => {
                     <span className="cart-number">2</span>
                   </a>
                 </li>{" "}
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <img
-                      src="https://png.pngtree.com/png-vector/20191101/ourmid/pngtree-cartoon-color-simple-male-avatar-png-image_1934459.jpg"
-                      alt="Avatar"
-                      class="avatar"
-                    />
-                  </a>
-                </li>
+                <Link to="/register">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <img
+                        src="https://png.pngtree.com/png-vector/20191101/ourmid/pngtree-cartoon-color-simple-male-avatar-png-image_1934459.jpg"
+                        alt="Avatar"
+                        class="avatar"
+                      />
+                    </a>
+                  </li>
+                </Link>
               </ul>
             </div>
           </div>
