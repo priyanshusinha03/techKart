@@ -10,14 +10,14 @@ const Register = () => {
           Home{" "}
           <i
             class="fa-solid fa-chevron-left text-primary"
-            style={{ fontSize: "10px" }}
+            style={{ fontSize: "9px",marginTop:'-5px' }}
           ></i>{" "}
           Login
         </small>
       </div>
-      <br />
-      <div className="container">
-        <h3 style={{ fontWeight: "600" }}>Customer Login</h3>
+      
+      <div className="container mt-2">
+        <h4 style={{ fontWeight: "900" }}>Customer Login</h4>
       </div>
       <div className="container">
         <div className="containerWrapper">
