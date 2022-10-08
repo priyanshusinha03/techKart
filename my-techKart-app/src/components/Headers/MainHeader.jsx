@@ -23,21 +23,30 @@ const MainHeader = () => {
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    Laptops
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    Desktop Pcs
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    Networking Devices
-                  </a>
-                </li>
+                <Link to="/contact-us">
+                  {" "}
+                  <li class="nav-item">
+                    <as class="nav-link">
+                      Laptops
+                    </as>
+                  </li>
+                </Link>
+                <Link to="/register">
+                  {" "}
+                  <li class="nav-item">
+                    <as class="nav-link">
+                      Desktop Pcs
+                    </as>
+                  </li>
+                </Link>
+                <Link to="/about-us">
+                  {" "}
+                  <li class="nav-item">
+                    <as class="nav-link">
+                      Networking Devices
+                    </as>
+                  </li>
+                </Link>
                 <li class="nav-item">
                   <a class="nav-link" href="#">
                     Printers & Scanners

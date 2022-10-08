@@ -20,19 +20,26 @@
 
 .nav-link i {
   font-size: 17px;
+  text-decoration: none !important;
   margin-top: 7px;
   /* font-weig7t: 600; */
 }
-.carts{
+.carts {
   position: relative;
+}
+.nav-item {
+  text-decoration: none !important;
+}
+a {
+  text-decoration: none !important;
 }
 .cart-number {
   color: white;
-  background-color: #0156FF;
+  background-color: #0156ff;
   border: 1px;
   font-size: 10px;
   line-height: 5px;
-  padding: 5px ;
+  padding: 5px;
   border-radius: 50px;
   position: absolute;
   top: 2px;

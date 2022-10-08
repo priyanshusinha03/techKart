@@ -1,0 +1,20 @@
+.cardContact {
+  background-color: #f5f7ff;
+  width: 100%;
+  min-height: 450px;
+  padding: 30px;
+}
+.leftElements1 {
+  float: left;
+  width: 12%;
+  font-size: 30px;
+  padding: 12px 4px;
+}
+
+.rightElements1 {
+  float: left;
+  font-size: 13px;
+  width: 80%;
+  margin-top:0px;
+  padding: 20px;
+}
