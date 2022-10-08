@@ -4,7 +4,7 @@ import "./Footers.css";
 const index = () => {
   return (
     <div>
-      <div className="container-fluid bg-Dark p-4">
+      <div className="container-fluid bg-Dark p-5">
         <div className="container">
           <div className="row">
             <div className="col-sm-6">

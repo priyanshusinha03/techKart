@@ -1,0 +1,32 @@
+.cardsInnerWrapper {
+  margin-left: 9%;
+  margin-right: 9%;
+}
+
+.cardsTestimonial {
+  padding: 40px;
+  background-color: #f5f7ff;
+  font-size: 20px;
+  width: 100%;
+  min-height: 280px;
+}
+.cards-section{
+    font-size:16px;
+}
+.quoteIcon{
+    display: block;
+    font-size: 3rem;
+    margin-right: 20px;
+    text-align: justify;
+}
+.para-sections{
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.circleFour{
+    padding-right: 2px;
+    font-size: 10px;
+    color: gray;
+}
