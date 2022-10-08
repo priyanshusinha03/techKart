@@ -93,17 +93,22 @@ const MainHeader = () => {
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
                   <a class="nav-link" href="#">
-                    <i class="bi bi-search"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>{" "}
+                  </a>
+                </li>{" "}
+                <li class="nav-item carts">
+                  <a class="nav-link" href="#">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span className="cart-number">2</span>
                   </a>
                 </li>{" "}
                 <li class="nav-item">
                   <a class="nav-link" href="#">
-                    <i class="bi bi-cart-fill"></i>
-                  </a>
-                </li>{" "}
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <i class="bi bi-person-circle"></i>
+                    <img
+                      src="https://png.pngtree.com/png-vector/20191101/ourmid/pngtree-cartoon-color-simple-male-avatar-png-image_1934459.jpg"
+                      alt="Avatar"
+                      class="avatar"
+                    />
                   </a>
                 </li>
               </ul>

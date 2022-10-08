@@ -4,7 +4,7 @@ import TopHeader from "./TopHeader";
 
 const Header = () => {
   return (
-    <div>
+    <div style={{position:"sticky",top:"0"}}>
       <TopHeader />
       <MainHeader />
     </div>

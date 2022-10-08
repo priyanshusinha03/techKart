@@ -1,0 +1,21 @@
+.fa-headset,
+.fa-user-tie,
+.fa-tags {
+  font-size: 35px;
+  border-radius: 50px;
+  padding: 30px;
+  color: white !important;
+  margin-left: 37%;
+  background-color: #0156ff;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+.card-subtitle {
+  color: rgb(65, 63, 63);
+  
+  font-weight: 400;
+  font-size: 14px;
+}
