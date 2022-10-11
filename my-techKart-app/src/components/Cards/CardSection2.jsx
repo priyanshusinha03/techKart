@@ -20,7 +20,7 @@ const CardSection2 = () => {
             <div className="overLayText text-center">Custome Builds</div>
           </div>
         </div>
-        <div className="col-sm-2">
+        <div className="col-sm-3 col-6 ">
           <div class="cardsLaptop">
             <div className="imageWrap1">
               {" "}
@@ -70,7 +70,7 @@ const CardSection2 = () => {
             </div>
           </div>
         </div>
-        <div className="col-sm-2">
+        <div className="col-sm-3 col-6 ">
           <div class="cardsLaptop">
             <div className="imageWrap1">
               {" "}
@@ -120,7 +120,7 @@ const CardSection2 = () => {
             </div>
           </div>
         </div>
-        <div className="col-sm-2">
+        <div className="col-sm-3 col-6 ">
           <div class="cardsLaptop">
             <div className="imageWrap1">
               {" "}
@@ -170,7 +170,7 @@ const CardSection2 = () => {
             </div>
           </div>
         </div>
-        <div className="col-sm-2">
+        <div className="col-sm-3 col-6">
           <div class="cardsLaptop">
             <div className="imageWrap1">
               {" "}
@@ -220,7 +220,7 @@ const CardSection2 = () => {
             </div>
           </div>
         </div>
-        <div className="col-sm-2">
+        <div className="col-sm-3 ">
           <div class="cardsLaptop">
             <div className="imageWrap1">
               {" "}
@@ -270,6 +270,7 @@ const CardSection2 = () => {
             </div>
           </div>
         </div>
+        
       </div>
       <br />
     </div>

@@ -9,8 +9,9 @@
   background-color: #0156ff;
 }
 
-.card-title {
+.col-sm-4 .card-title {
   font-weight: 700;
+  font-size: 20px !important;
 }
 
 .card-subtitle {

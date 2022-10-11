@@ -1,0 +1,25 @@
+.cardBrand {
+  padding: 20px;
+}
+
+.img-responsivesbrand {
+  width: 140px;
+  height: auto;
+  -webkit-filter: blur(1px);
+  animation-timing-function: ease-out;
+  animation-duration: 300ms;
+}
+@media screen and (max-width: 800px) {
+  .img-responsivesbrand {
+    width: 100%;
+  }
+}
+
+
+.cardBrand:hover .img-responsivesbrand{
+    -webkit-filter: blur(0px);
+    cursor: pointer;
+    animation-duration: 300ms;
+
+
+}

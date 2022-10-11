@@ -1,8 +1,8 @@
 import React from "react";
 import "./AboutSection.css";
-const AboutProduct = () => {
+const AboutProduct = (props) => {
   return (
-    <div style={{ backgroundColor: "#F5F7FF" }}>
+    <div style={{ backgroundColor: props.color ? "transparent" : "#F5F7FF" }}>
       <div className="container">
         <div className="row">
           <div className="col-sm-4">
@@ -16,7 +16,7 @@ const AboutProduct = () => {
                 Product Support
               </div>
               <div className="card-subtitle text-center">
-              Up to 3 years on-site warranty available for your peace of mind.
+                Up to 3 years on-site warranty available for your peace of mind.
               </div>
             </div>
           </div>
@@ -47,7 +47,7 @@ const AboutProduct = () => {
                 Amazing Savings
               </div>
               <div className="card-subtitle text-center">
-              Up to 70% off new Products, you can be sure of the best price.
+                Up to 70% off new Products, you can be sure of the best price.
               </div>
             </div>
           </div>

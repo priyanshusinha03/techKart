@@ -1,22 +1,51 @@
 import React from "react";
-import CoverImg from "../../assets/cover.png";
-import secondRowImg from "../../assets/row2.png";
-import secondRowImg2 from "../../assets/bravo.png";
-import secondRowImg4 from "../../assets/zulu.png";
-import secondRowImg5 from "../../assets/delta.png";
-import secondRowImg3 from "../../assets/alpha.png";
+import CoverImg2 from "../../assets/msilaptop.png";
+import secondRowImg from "../../assets/msil1.png";
+import secondRowImg2 from "../../assets/msil4.png";
+import secondRowImg4 from "../../assets/msil5.png";
+import secondRowImg5 from "../../assets/msil3.png";
+import secondRowImg3 from "../../assets/msil2.png";
 import Tab from "../../assets/tab.png";
 
 const CardSection3 = () => {
   return (
     <div>
+      <div className="d-flex justify-content-start">
+        <div>
+          <button
+            className="btn btn-transparent text-secondary"
+            style={{ borderBottom: "2px solid blue" }}
+          >
+            <strong>MSI GS Series</strong>
+          </button>
+        </div>
+        <div>
+          {" "}
+          <button className="btn btn-transparent text-secondary">
+            <strong>MSI GT Series</strong>
+          </button>
+        </div>
+        <div>
+          {" "}
+          <button className="btn btn-transparent text-secondary">
+            <strong>MSI GL Series</strong>
+          </button>
+        </div>
+        <div>
+          {" "}
+          <button className="btn btn-transparent text-secondary">
+            <strong>MSI GE Series</strong>
+          </button>
+        </div>
+      </div>
+      <br />
       <div className="row">
         <div className="col-sm-2">
           <div className="cardsCover">
             <div className="card-img-tops">
-              <img src={CoverImg} alt="cover Image" className="img-fluids" />
+              <img src={CoverImg2} alt="cover Image" className="img-fluids" />
             </div>
-            <div className="overLayText text-center">Custome Builds</div>
+            <div className="overLayText text-center">MSI Laptops</div>
           </div>
         </div>
         <div className="col-sm-2">

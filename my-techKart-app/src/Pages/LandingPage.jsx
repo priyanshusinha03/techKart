@@ -8,6 +8,8 @@ import CardSection2 from "../components/Cards/CardSection2";
 import CardSection4 from "../components/Cards/CardSection4";
 import CardSection3 from "../components/Cards/CardSection3";
 import NewsOffer from "../components/News&Offers/Index";
+import Testimonial from "../components/Testimonial/Testimonials";
+import Brandings from "../components/BrandingPromotions/Brandings";
 const LandingPage = () => {
   return (
     <div>
@@ -36,10 +38,11 @@ const LandingPage = () => {
           <CardSection2 />
           <CardSection3 />
           <CardSection4 />
+          <Brandings />
           <NewsOffer />
         </div>
-
-        <AboutProduct />
+        <Testimonial />
+        <AboutProduct color={true} />
       </div>
       <Footers />
     </div>
