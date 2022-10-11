@@ -48,7 +48,7 @@ const Register = () => {
                         "
                       >
                         Password
-                      </label>I
+                      </label>
                       <input
                         type="text"
                         placeholder="Password"
@@ -100,6 +100,7 @@ const Register = () => {
             </div>
           </div>
         </div>{" "}
+        <br />
       </div>
     </div>
   );
