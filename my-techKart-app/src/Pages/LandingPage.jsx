@@ -4,6 +4,10 @@ import Footers from "../components/Footers";
 import BannerMSI from "../components/BannerCarousel/BannerMSI";
 import AboutProduct from "../components/AboutSection/AboutProduct";
 import SliderCards from "../components/Cards/SliderCards";
+import CardSection2 from "../components/Cards/CardSection2";
+import CardSection4 from "../components/Cards/CardSection4";
+import CardSection3 from "../components/Cards/CardSection3";
+import NewsOffer from "../components/News&Offers/Index";
 const LandingPage = () => {
   return (
     <div>
@@ -12,7 +16,29 @@ const LandingPage = () => {
         <BannerMSI />
         <div className="container">
           <SliderCards />
+          <br />{" "}
+          <div className="bg-cards">
+            <div className="text-center">
+              <span
+                style={{
+                  backgroundColor: "#272560",
+                  color: "white",
+                  padding: "2px 6px",
+                  fontWeight: "600",
+                  fontSize: "17px",
+                }}
+              >
+                ZIP
+              </span>{" "}
+              own it now, up to 6 months interest free learn more
+            </div>
+          </div>{" "}
+          <CardSection2 />
+          <CardSection3 />
+          <CardSection4 />
+          <NewsOffer />
         </div>
+
         <AboutProduct />
       </div>
       <Footers />

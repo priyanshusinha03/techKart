@@ -3,40 +3,60 @@ import Slider from "react-slick";
 import "./main.css";
 import Img1 from "../../assets/lappy1.png";
 import Img2 from "../../assets/msi1.png";
+import Tab from "../../assets/tab.png";
 import listData from "./cardJson.json";
 
 const SliderCards = () => {
   const [cartData, setCartData] = useState(listData.list_data);
-  //   function SampleNextArrow(props) {
-  //     const { className, style, onClick } = props;
-  //     return (
-  //       <div
-  //         className={className}
-  //         style={{ ...style, display: "block", background: "red" }}
-  //         onClick={onClick}
-  //       />
-  //     );
-  //   }
 
-  //   function SamplePrevArrow(props) {
-  //     const { className, style, onClick } = props;
-  //     return (
-  //       <div
-  //         className={className}
-  //         style={{ ...style, display: "block", background: "green" }}
-  //         onClick={onClick}
-  //       />
-  //     );
-  //   }
+  function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "gray" }}
+        onClick={onClick}
+      />
+    );
+  }
+
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{
+          ...style,
+          display: "block",
+          background: "gray",
+          color: "black",
+        }}
+        onClick={onClick}
+      />
+    );
+  }
 
   var settings = {
-    dots: true,
-    infinite: false,
-    speed: 500,
+    dots: false,
+    infinite: true,
+    speed: 300,
     arrows: true,
-    slidesToShow: 4,
+    slidesToShow: 6,
+    appendDots: (dots) => (
+      <div
+        style={{
+          backgroundColor: "#ddd",
+          borderRadius: "0px",
+          padding: "0px",
+          display: "none",
+        }}
+      >
+        <ul style={{ margin: "0px" }}> {dots} </ul>
+      </div>
+    ),
     slidesToScroll: 1,
-    // prevArrow: <SamplePrevArrow />,
+    prevArrow: <SamplePrevArrow />,
+    nextArrow: <SampleNextArrow />,
     initialSlide: 0,
     responsive: [
       {
@@ -59,7 +79,7 @@ const SliderCards = () => {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
@@ -72,7 +92,7 @@ const SliderCards = () => {
           <div className="d-flex justify-content-between my-3">
             <div>
               <h4>
-                <strong>Products</strong>
+                <strong>New Products</strong>
               </h4>
             </div>
             <div>
@@ -92,44 +112,62 @@ const SliderCards = () => {
           </div>
         </div>
         <Slider {...settings}>
-          <div>
-            <div class="cardsLaptop">
-              <img src={Img1} class="card-img-top" alt="..." />
-              <div class="card-body">
-                <div class="card-title">
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning px-1"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning px-1"></i>
-                  <i class="bi bi-star text-warning"></i>
-                  <span className="text-secondary reviewCards">
-                    Reviews (4)
+          {cartData.map((item) => (
+            <>
+              <div class="cardsLaptop">
+                <div className="imageWrap1">
+                  {" "}
+                  <img src={Tab} class="card-img-top" alt="..." />
+                </div>
+                <div className="imageWrap">
+                  {" "}
+                  <img
+                    src={item.img_url.includes("msi1") ? Img1 : Img2}
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                  <div class="card-title">
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning px-1"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning px-1"></i>
+                    <i class="bi bi-star text-warning"></i>
+                    <span className="text-secondary reviewCards">
+                      Reviews (4)
+                    </span>
+                  </div>
+                  <p class="card-texts">{item.name}</p>
+                  <span className="card-subtitiles text-secondary">
+                    <s style={{ textdecoration: "strikethrough" }}>$499.0</s>
+                  </span>
+                  <div className="card-newPrice">
+                    <h5>
+                      <strong>$299.00</strong>
+                    </h5>
+                  </div>
+                </div>
+                <div className="cardStrip text-success">
+                  <span>
+                    <i class="bi bi-check-circle-fill text-success mx-1"></i>In
+                    stock
                   </span>
                 </div>
-                <p class="card-texts">
-                  EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH
-                  All-In-On...
-                </p>
-                <span className="card-subtitiles text-secondary">
-                  <s style={{ textdecoration: "strikethrough" }}>$499.0</s>
-                </span>
-                <div className="card-newPrice">
-                  <h5>
-                    <strong>$299.00</strong>
-                  </h5>
+                <div className="cardFavIcon">
+                  <i class="fa-solid fa-heart"></i>{" "}
+                </div>
+                <div className="cardChartIcon">
+                  <i class="fa-solid fa-chart-simple"></i>
+                </div>
+                <div className="buttonCards">
+                  <button className="btn rounded-pill btn-outline-primary">
+                    <span className="btnFonts">Add To Cart</span>
+                  </button>
                 </div>
               </div>
-            </div>{" "}
-          </div>
-          <div>
-            <h3>6</h3>
-          </div>
-          <div>
-            <h3>7</h3>
-          </div>
-          <div>
-            <h3>8</h3>
-          </div>
+            </>
+          ))}
         </Slider>
       </div>
     </div>

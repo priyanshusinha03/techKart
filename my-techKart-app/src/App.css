@@ -4,4 +4,8 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-
+.bg-cards {
+  background-color: #f5f7ff;
+  padding:14px;
+  margin-bottom: 20px;
+}

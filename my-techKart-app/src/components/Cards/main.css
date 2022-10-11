@@ -1,30 +1,19 @@
-.slick-next,
-.slick-prev {
-  line-height: 20px;
-  top: 50%;
-  /* font-size: 80px !important; */
-  display: block !important;
-  width: 55px !important    ;
-  height: 65px;
-  -webkit-transform: translate(0, -50%);
-  -ms-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-  cursor: pointer;
-  border: 3px solid #f5f5f5;
-  outline: 20px !important;
-  color: black !important;
-  background-color: #f5f7ff !important;
+/*  */
+.card-img-top {
+  width: 100%;
+  height: 150px;
 }
-
 .cardsLaptop {
-  width: 240px;
-  padding: 10px 15px;
-  height: 390px;
-  border: 1px solid transparent;
-  z-index: -1 !important  ;
+  width: 234px;
+  padding: 10px 20px;
+  height: 400px;
 }
 .card-body {
   padding: 14px 17px;
+}
+.imageWrap {
+  padding: 2px 15px;
+  display: block;
 }
 .card-texts {
   font-size: 13px;
@@ -39,5 +28,98 @@
 }
 
 .cardsLaptop:hover {
-  border: 1px solid green;
+  height: 400px;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: all 0.25s ease;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.14);
+}
+
+.cardStrip {
+  position: absolute;
+  top: 10px;
+  display: block;
+  font-size: 10px;
+}
+.card-title{
+  font-size: 11px;
+}
+.cardFavIcon {
+  position: absolute;
+  left: 84%;
+  top: 10%;
+  font-size: 15px;
+  border: 2px solid gray;
+  border-radius: 50px;
+  line-height: 5px;
+  padding: 5px;
+  color: gray;
+  cursor: pointer;
+}
+.cardChartIcon {
+  position: absolute;
+  left: 84%;
+  border: 2px solid gray;
+  border-radius: 50px;
+  line-height: 5px;
+  padding: 5px;
+  cursor: pointer;
+  top: 18%;
+  color: gray;
+  font-size: 15px;
+}
+.cardFavIcon:hover,
+.cardChartIcon:hover {
+  color: goldenrod;
+}
+.buttonCards {
+  display: flex;
+  flex-wrap: nowrap;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+.cardsLaptop:hover > .buttonCards {
+  display: flex;
+}
+
+.btnFonts {
+  font-size: 12px;
+  padding: 12px 25px;
+}
+
+.imageWrap1 {
+  display: none;
+}
+
+.cardsLaptop:hover > .imageWrap {
+  display: none;
+}
+.cardsLaptop:hover > .imageWrap1 {
+  padding: 2px 15px;
+  display: block;
+}
+
+.cardsCover {
+  position: relative;
+}
+.img-fluids {
+  width: 100%;
+  height: 350px;
+}
+
+.overLayText {
+  position: absolute;
+  top: 30%;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  padding: 20px;
+  font-weight: bold;
+}
+@media screen and (max-width: 800px) {
+  .overLayText {
+    top: 18%;
+    font-size: 3.4rem;
+  }
 }
