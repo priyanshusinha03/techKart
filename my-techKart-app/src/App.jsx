@@ -7,6 +7,7 @@ import RegisterLogin from "./Pages/RegisterLogin";
 import AboutUs from "./Pages/AboutUs";
 import ProductDetails from "./Pages/ProductDetails";
 import Contact from "./Pages/Contact";
+import Carts from "./Pages/Carts";
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
         {/* <Route exact path="/home" component={TopHeader} /> */}
         <Route exact path="/register" component={RegisterLogin} />
         <Route exact path="/about-us" component={AboutUs} />{" "}
+        <Route exact path="/shopping-cart" component={Carts} />{" "}
         <Route exact path="/product-details" component={ProductDetails} />{" "}
         <Route exact path="/contact-us" component={Contact} />
         <Route exact path="/" component={LandingPage} />

@@ -8,7 +8,7 @@ import "./AboutProducts.css";
 const AboutFeatures = () => {
   return (
     <div>
-      <br />
+      
       <div className="backgroundFeatures">
         <h2 className="text-light text-center">
           <strong>Features</strong>

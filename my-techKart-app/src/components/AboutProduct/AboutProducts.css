@@ -129,3 +129,51 @@
   border-radius: 50%;
   height: 170px;
 }
+
+.d-supportbox {
+  /* padding: 30px; */
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(
+    270deg,
+    #f5f7ff 0%,
+    #f5f7ff 66.67%,
+    rgba(240, 242, 241, 0) 100%
+  );
+}
+.newCard {
+  position: relative;
+  width: 380px;
+  /* left: -10%;   */
+  height: 100%;
+  padding: 38px;
+  margin-top: 40px;
+  float: left;
+  flex-wrap: wrap;
+  flex-direction: column;
+  display: flex;
+}
+
+.threeCard {
+  margin-top: 15px;
+  cursor: pointer;
+  padding: 10px 24px;
+}
+#myDIv {
+  width: 656px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/coverSupport.png");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-clip: initial;
+}
+@media screen and (max-width: 800px) {
+  .newCard{
+    width: 100%;
+  }
+  #myDIv {
+    width: 98vw;
+    background-size: 500px 400px;
+  }
+}

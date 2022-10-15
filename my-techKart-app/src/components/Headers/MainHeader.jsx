@@ -47,11 +47,12 @@ const MainHeader = () => {
                     </as>
                   </li>
                 </Link>
+                <Link to="/shopping-cart">
                 <li class="nav-item">
                   <a class="nav-link" href="#">
                     Printers & Scanners
                   </a>
-                </li>{" "}
+                </li>{" "}</Link>
                 <li class="nav-item">
                   <a class="nav-link" href="#">
                     PC Parts
