@@ -8,19 +8,29 @@ const ProductBannerDiv = () => {
         <div className="container p-5">
           <div className="row">
             <div className="col-sm-6 p-4">
-              <p className="p-3 text-light mt-4">
-                <br /> <h1>Outplay the Completion</h1> <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Doloremque, ea error molestias id eum minima mollitia
-                repudiandae perferendis aperiam illo molestiae, itaque, voluptas
-                eveniet sequi autem dolorum porro quibusdam vel esse maiores
-                quidem asperiores consequatur nostrum. Tempora voluptatibus
-                incidunt consequatur obcaecati. Deserunt illum cupiditate
-                doloribus?
+              <p className="p-3 text-light mt-0">
+                <br />{" "}
+                <h1 style={{ fontSize: "50px" }}>Outplay the Completion</h1>{" "}
+                <br />
+                Experience a 40% boost in computing from last generation. MSI
+                Desktop equips the 10th Gen. Intel® Core™ i7 processor with the
+                upmost computing power to bring you an unparalleled gaming
+                experience.
+                <br />
+                <br />
+                *Performance compared to i7-9700. Specs varies by model.
               </p>
             </div>
             <div className="col-sm-6">
-              <img src={bgImage} alt="" width="100%" className="mt-4 img-covers" />
+              <div className="imageDiv">
+                <div className="bgimage"></div>
+              </div>
+              {/* <img
+                src={bgImage}
+                alt=""
+                width="100%"
+                className="mt-4 img-covers"
+              /> */}
             </div>
           </div>
         </div>

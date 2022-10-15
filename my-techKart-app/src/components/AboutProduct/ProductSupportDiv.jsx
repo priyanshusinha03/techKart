@@ -1,9 +1,12 @@
-import React from 'react'
-
+import React from "react";
+import "./AboutProducts.css";
+import CoverImg from "../../assets/coverSupport.png";
 const ProductSupportDiv = () => {
   return (
-    <div>ProductSupportDiv</div>
-  )
-}
+    <div>
+      
+    </div>
+  );
+};
 
-export default ProductSupportDiv
+export default ProductSupportDiv;
