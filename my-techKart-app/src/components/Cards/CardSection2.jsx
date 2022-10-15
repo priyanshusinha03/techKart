@@ -20,7 +20,7 @@ const CardSection2 = () => {
             <div className="overLayText text-center">Custome Builds</div>
           </div>
         </div>
-        <div className="col-sm-3 col-6 ">
+        <div className="col-sm-2 ">
           <div class="cardsLaptop">
             <div className="imageWrap1">
               {" "}
@@ -70,7 +70,7 @@ const CardSection2 = () => {
             </div>
           </div>
         </div>
-        <div className="col-sm-3 col-6 ">
+        <div className="col-sm-2 ">
           <div class="cardsLaptop">
             <div className="imageWrap1">
               {" "}
@@ -120,7 +120,7 @@ const CardSection2 = () => {
             </div>
           </div>
         </div>
-        <div className="col-sm-3 col-6 ">
+        <div className="col-sm-2 ">
           <div class="cardsLaptop">
             <div className="imageWrap1">
               {" "}
@@ -140,7 +140,7 @@ const CardSection2 = () => {
                 <span className="text-secondary reviewCards">Reviews (4)</span>
               </div>
               <p class="card-texts">
-                "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-Ons..
+                "EX DISPLAY : MSI Pro 16 Flex-026AU 15.6 MULTITOUCH All-In-Ons..
               </p>
               <span className="card-subtitiles text-secondary">
                 <s style={{ textdecoration: "strikethrough" }}>$499.0</s>
@@ -170,7 +170,7 @@ const CardSection2 = () => {
             </div>
           </div>
         </div>
-        <div className="col-sm-3 col-6">
+        <div className="col-sm-2">
           <div class="cardsLaptop">
             <div className="imageWrap1">
               {" "}
@@ -220,7 +220,7 @@ const CardSection2 = () => {
             </div>
           </div>
         </div>
-        <div className="col-sm-3 ">
+        <div className="col-sm-2">
           <div class="cardsLaptop">
             <div className="imageWrap1">
               {" "}

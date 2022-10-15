@@ -1,0 +1,88 @@
+.addNew {
+  color: gray !important;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "Poppins";
+  font-style: normal;
+  border-bottom: 2px solid transparent;
+}
+.addNew:hover {
+  color: black !important;
+  cursor: pointer;
+  transform: translateX(0px);
+  transition: 0.5s;
+  border-bottom: 2px solid rgba(1, 86, 255, 1);
+  font-size: bold;
+}
+
+.addNewActive {
+  color: black !important;
+  cursor: pointer;
+  transition: 0.5s;
+  border-bottom: 2px solid rgba(1, 86, 255, 1);
+  font-size: 700;
+}
+
+.noBorderWidth {
+  width: 20%;
+  float: right;
+}
+.d-blocks {
+  position: fixed;
+  top: 50px !important;
+  width: 100%;
+}
+.bg-backGround {
+  background: rgb(245, 247, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(245, 247, 255, 1) 0%,
+    rgba(245, 247, 255, 1) 57%,
+    rgba(255, 255, 255, 1) 57%
+  );
+}
+
+.headingAbout {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.paraAbout {
+  margin-top: 10px;
+  color: black;
+  opacity: 0.7;
+  margin-right: 16%;
+  font-size: 20px;
+}
+@media screen and (max-width: 800px) {
+  .bg-backGround {
+    background: rgb(251, 251, 251);
+  }
+  .paraAbout {
+    margin-top: 10px;
+    margin-right: 00px;
+    font-size: 17px;
+    /* justify-content: baseline; */
+  }
+}
+
+.css-j4ndc3 {
+  width: 40px !important;
+  height: 40px !important;
+  padding: 2px !important;
+  font-size: 30px !important;
+  border-radius: 50px !important;
+}
+.css-trkpwz {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.img-covers{
+    transform:scale(1.3);
+}
+.d-flockWrapper{
+    background-color: black;
+}
