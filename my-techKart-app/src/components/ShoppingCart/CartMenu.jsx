@@ -2,22 +2,32 @@ import React from "react";
 import "./ShoppingCart.css";
 import lap1 from "../../assets/cart1.png";
 import lap2 from "../../assets/cart2.png";
+import CartSummary from "./CartSummary";
+
 const CartMenu = () => {
   return (
     <div>
       <div className="container mb-5">
-        <small>Home . Login</small>
-        <br />
-        <br />
-        <h2 className="mt-4" style={{ fontWeight: "700" }}>
-          <strong>Shopping Cart</strong>
-        </h2>
+        <div className="container">
+          <br />
+          <small>
+            Home{" "}
+            <i
+              class="fa-solid fa-chevron-left text-primary"
+              style={{ fontSize: "9px", marginTop: "-5px" }}
+            ></i>{" "}
+            shopping cart
+          </small>
+        </div>
+        <div className="container mt-2">
+          <h4 style={{ fontWeight: "900" }}>Shopping Cart</h4>
+        </div>
         <br />
         <div className="row">
           <div className="col-sm-8">
             <div className="basket">
               <div className="basket-labels">
-                <ul>
+                <ul style={{ listStyleType: "none" }}>
                   <li className="item item-heading">Item</li>
                   <li className="price">Price</li>
                   <li className="quantity">Quantity</li>
@@ -138,7 +148,9 @@ const CartMenu = () => {
           </div>
 
           <div className="col-sm-4">
-            <div className="summaryBox"></div>
+            <div className="summaryBox">
+              <CartSummary />
+            </div>
           </div>
         </div>
         <div></div>

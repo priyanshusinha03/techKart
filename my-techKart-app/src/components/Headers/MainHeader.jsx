@@ -7,9 +7,12 @@ const MainHeader = () => {
       <>
         <nav class="navbar navbar-expand-lg bg-light">
           <div class="container">
-            <a class="navbar-brand" href="#">
-              <img src={LoGo} alt="logo" width="75px" height="55px" />
-            </a>
+            <Link to="/">
+              {" "}
+              <a class="navbar-brand">
+                <img src={LoGo} alt="logo" width="75px" height="55px" />
+              </a>
+            </Link>
             <button
               class="navbar-toggler"
               type="button"
@@ -26,33 +29,28 @@ const MainHeader = () => {
                 <Link to="/contact-us">
                   {" "}
                   <li class="nav-item">
-                    <as class="nav-link">
-                      Laptops
-                    </as>
+                    <as class="nav-link">Laptops</as>
                   </li>
                 </Link>
                 <Link to="/register">
                   {" "}
                   <li class="nav-item">
-                    <as class="nav-link">
-                      Desktop Pcs
-                    </as>
+                    <as class="nav-link">Desktop Pcs</as>
                   </li>
                 </Link>
                 <Link to="/about-us">
                   {" "}
                   <li class="nav-item">
-                    <as class="nav-link">
-                      Networking Devices
-                    </as>
+                    <as class="nav-link">Networking Devices</as>
                   </li>
                 </Link>
                 <Link to="/shopping-cart">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    Printers & Scanners
-                  </a>
-                </li>{" "}</Link>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      Printers & Scanners
+                    </a>
+                  </li>{" "}
+                </Link>
                 <li class="nav-item">
                   <a class="nav-link" href="#">
                     PC Parts

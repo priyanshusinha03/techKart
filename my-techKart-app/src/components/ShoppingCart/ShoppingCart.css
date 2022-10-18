@@ -1,4 +1,4 @@
-img,
+
 .basket-module,
 .basket-labels,
 .basket-product {
@@ -35,11 +35,11 @@ img,
   padding: 16px;
 }
 
-ul {
+/* ul {
   list-style: none;
   margin: 0;
   padding: 0;
-}
+} */
 
 li.price:before,
 li.subtotal:before {
@@ -167,7 +167,32 @@ li.subtotal:before {
 
 .summaryBox{
     width: 100%;
-    padding: 20%;
+    padding: 20px;
     background-color: rgba(245, 247, 255, 1);
-    height: 600px;
+    min-height: 600px;
+}
+
+.accordion-item{
+  border: 1px solid transparent !important;
+  background-color: transparent !important;
+}
+.accordion-button{
+  background-color: transparent !important;
+}
+.accordion-button {
+  font-size: 0.81rem;
+  color: var(--bs-accordion-btn-color);
+  text-align: left;
+}
+.accordion-button:focus {
+  z-index: 3 !important;
+  border-color: transparent !important;
+  outline: 0;
+  box-shadow: none !important;
+}
+.accordion-body{
+  margin-top: -20px;
+}
+.form-label{
+  font-size: 13px !important;
 }
