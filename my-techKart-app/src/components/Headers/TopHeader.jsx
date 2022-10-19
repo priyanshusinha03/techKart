@@ -15,12 +15,15 @@ const TopHeader = () => {
               </strong>
             </div>
             <div>
-              Visit our showroom in 1234 Street Address City Address, 1234{" "}
+              <ss>
+                {" "}
+                Visit our showroom in 1234 Street Address City Address, 1234{" "}
+              </ss>{" "}
               <strong>
-                <u style={{ color: "white" }}>Contact Us</u>
+                <spans style={{ color: "white" }}>Contact Us</spans>
               </strong>
             </div>
-            <div className="text-light">
+            <div className="text-light d-none d-sm-block">
               Call US:(0,0) 1234 5678{" "}
               <span className="px-2">
                 <i class="bi bi-facebook"></i>

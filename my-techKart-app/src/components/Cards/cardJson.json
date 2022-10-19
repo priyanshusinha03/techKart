@@ -35,5 +35,59 @@
       "img_url": "../../assets/msi1.png",
       "name": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On.."
     }
+  ],
+  "card_section_2_data": [
+    {
+      "id": "11",
+      "img_url": "../../assets/row2.png",
+      "name": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-Ons.."
+    },
+    {
+      "id": "12",
+      "img_url": "../../assets/bravo.png",
+      "name": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On.."
+    },
+    {
+      "id": "13",
+      "img_url": "../../assets/alpha.png",
+      "name": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On.."
+    },
+    {
+      "id": "14",
+      "img_url": "../../assets/zulu.png",
+      "name": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On.."
+    },
+    {
+      "id": "15",
+      "img_url": "../../assets/delta.png",
+      "name": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On.."
+    }
+  ],
+  "card_section_3_data": [
+    {
+      "id": "11",
+      "img_url": "../../assets/msil2.png",
+      "name": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-Ons.."
+    },
+    {
+      "id": "12",
+      "img_url": "../../assets/msil3.png",
+      "name": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On.."
+    },
+    {
+      "id": "13",
+      "img_url": "../../assets/msil2.png",
+      "name": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On.."
+    },
+    {
+      "id": "14",
+      "img_url": "../../assets/zulu.png",
+      "name": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On.."
+    },
+    {
+      "id": "15",
+      "img_url": "../../assets/msil1.png",
+      "name": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On.."
+    }
   ]
 }
